@@ -30,7 +30,7 @@ public class CharType {
         //test if chars in a String are letters
         String pw = "pAs5w0rD123";
         for (int i = 0; i < pw.length(); i++) {
-            char character = pw.substring(i, i+1).toUpperCase().charAt(0);
+            char character = pw.toUpperCase().substring(i, i+1).charAt(0);
             if (character >= 'A' && character <= 'Z')
                 System.out.println(pw.charAt(i) + " is a letter");
             else
