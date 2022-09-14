@@ -14,7 +14,7 @@ public class CharType {
         System.out.println(letter + "'s ascii value: " + ascii);
 
         //an int can be cast to a char -
-        //find the letter offset by 10 from A
+        //find the letter offset by 4 from A
         char let2 = (char)('A' + 4);
         System.out.println("4 letters after A is " + let2);
 
