@@ -3,8 +3,9 @@ public class TryCatchParsing {
     public static void main(String [] args) {
         Scanner s = new Scanner(System.in);
 
-        boolean valid = false;
         int num = -1;
+
+        boolean valid = false;
         while(!valid) {
             try{
                 System.out.println("enter a number between 1 and 10");
@@ -20,7 +21,7 @@ public class TryCatchParsing {
             }
         }
 
-        System.out.println("good job");
+        System.out.println("you entered " + num);
 
     }
 }
