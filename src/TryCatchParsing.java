@@ -10,9 +10,8 @@ public class TryCatchParsing {
                 System.out.println("enter a number between 1 and 10");
                 String inputString = s.nextLine();
                 num = Integer.parseInt(inputString);
-                if (num > 0 && num <= 10) {
+                if (num > 0 && num <= 10)
                     valid = true;
-                }
                 else
                     System.out.println("input out of range");
             }
