@@ -13,9 +13,9 @@ public class TryCatchParsing {
     }
 
     public static int getNum() {
-        Scanner s = new Scanner(System.in);
         int num = -1;
         try{
+            Scanner s = new Scanner(System.in);
             String inputString = s.nextLine();
             num = Integer.parseInt(inputString);
         }
