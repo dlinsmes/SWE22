@@ -6,6 +6,7 @@ public class TryCatchParsing {
         int num = getNum();
         while(!(num > 0 && num <= 10)) {
             System.out.println("invalid");
+            System.out.println("enter a number between 1 and 10");
             num = getNum();
         }
         System.out.println("you entered " + num);
